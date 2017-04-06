@@ -1,0 +1,91 @@
+body{
+  position:relative;
+  background-color:#F8FDFC;
+}
+/* TOP NAVIGATION */
+.navbar{
+  border-top:8px solid #10b38f;
+  background-color:rgb(236,247,247);
+}
+.navbar-toggle{
+  color:#10b38f;
+}
+.navbar-collapse{
+  text-align:center;
+}
+.navbar-nav{
+  width:400px;
+  margin:0 auto;
+  padding-left:20px;
+  float:none;
+}
+.nav-item{
+  margin:0 20px;
+}
+/* nav-item or nav-link has this odd gray background
+  do not change the selector below */
+.navbar-nav li a:hover,
+.active .nav-link{
+    background-color:rgb(236,247,247);
+    color:green;
+}
+.nav-link{
+  font-size:1.2em;
+  color:#10b38f;
+  position:relative;
+}
+.nav-link:after{
+  position:absolute;
+  content:"";
+  bottom:8px;
+  left:5px;
+  width:0;
+  height:3px;
+  background-color:green;
+  transition: width 0.5s;
+}
+.nav-link:hover:after,
+.active .nav-link:after{
+  width:90%;
+}
+/* ABOUT SECTION */
+.jumbotron{
+  padding-top:55px;
+  background-color:rgb(236,247,247);
+}
+.font-weight-bold{
+  line-height:1.5em;
+}
+.sns{
+  list-style:none;
+  margin:0 auto;
+  text-align:center;
+}
+.sns a{
+  width:40px;
+  height:40px;
+  margin:0 20px;
+  padding:5px 0 0 0;
+}
+/* PROJECT SECTION */
+.row{
+  margin: 40px 0;
+}
+.pj{
+  border:10px solid rgb(60,63,80);
+  border-radius:10px;
+}
+.fat-foot{
+  background-color:rgb(60,63,80);
+  color:white;
+}
+.mb-0{
+  padding:20px 0 0 30px;
+  line-height:1.5em;
+  font-size:18px;
+}
+.last-line{
+  font-weight:400;
+  color:#10b38f;
+  padding:40px 0 10px 0;
+}
