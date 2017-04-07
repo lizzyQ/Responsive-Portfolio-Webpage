@@ -7,7 +7,7 @@ A bonfire challenge project for FreeCodeCamp. Bootstrap and jQuery was used for 
 
 ![Project Preview](https://github.com/lizzyQ/Responsive-Portfolio-Webpage/blob/master/preview.png?raw=true)
 
-The working [*Demo*](http://codepen.io/lizzyQ/pen/RozeeM).
+The working [*Demo*](http://codepen.io/lizzyQ/full/RozeeM/).
 
 ---
 ## User Reference
